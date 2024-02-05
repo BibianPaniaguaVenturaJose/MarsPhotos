@@ -62,8 +62,6 @@ class MarsViewModel : ViewModel() {
                     }catch (e : IOException){
                         MarsUiState.Error
                     }
-
                 }
-
     }
 }
