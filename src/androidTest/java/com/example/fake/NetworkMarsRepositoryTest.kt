@@ -14,7 +14,6 @@ class NetworkMarsRepositoryTest {
             marsApiService = FakeMarsApiService()
         )
         assertEquals(FakeDataSource.photosList, repository.getMarsPhotos())
-
     }
 
 }
